@@ -46,4 +46,3 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         fields = ("id", "email", "password", "password2")
         read_only_fields = ("group",)
-
